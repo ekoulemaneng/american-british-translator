@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Ekoulé Maneng Charly Karl">
+        <meta name="description" content="An American-British English Translater">
+        <title>Translater</title>
+        <link rel="stylesheet" href="../public/reset.css">
+        <link rel="stylesheet" href="../public/style.css">
+    </head>
+    <body>
+        <h1>Translater</h1>
+        <p>an american-british english translator</p>
+        <hr>
+        <main>
+            <form>
+                <div id="input-output">
+                    <div class="half left">
+                        <select id="source">
+                            <option value="american">American English</option>
+                            <option value="british">British English</option>
+                        </select>
+                        <hr>
+                        <textarea cols="30" rows="10" required></textarea>
+                    </div>
+                    <div class="half right">
+                        <select id="target">
+                            <option value="british">British English</option>
+                            <option value="american">American English</option>
+                        </select>
+                        <hr>
+                        <div id="translated-sentence"></div>
+                    </div>
+                </div>
+                <div id="error-msg"></div>
+                <div class="button">
+                    <button type="submit">Translate</button>
+                    <button type="reset">Clear Input</button>
+                </div>
+            </form>
+        </main>
+        <script src="../public/script.js"></script>
+    </body>
+</html>

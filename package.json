@@ -1,0 +1,19 @@
+{
+    "name": "translater",
+    "description": "an american-british english translator",
+    "version": "0.0.1",
+    "author": "Ekoulé Maneng",
+    "main": "app.js",
+    "licence": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "cors": "^2.8.5"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "engines": {
+        "node": "10.16.1"
+    }
+}
